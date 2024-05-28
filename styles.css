@@ -44,12 +44,17 @@ h2 {
   text-align: center;
 }
 
-.image-row {
-  display: flex;
-  justify-content: space-between;
-  gap: 20px;
-}
 
-.image-row img {
-  width: 49%;
+.image-container {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+}
+.image-container img {
+    max-width: 100%; 
+    height: auto; 
+}
+.image-container .image {
+    flex: 1; 
+    margin: 0 10px; 
 }
